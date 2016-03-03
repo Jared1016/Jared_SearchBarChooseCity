@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F490F2C1C87CD5E006F793B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F490F2B1C87CD5E006F793B /* main.m */; };
+		7F490F2F1C87CD5E006F793B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F490F2E1C87CD5E006F793B /* AppDelegate.m */; };
+		7F490F321C87CD5E006F793B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F490F311C87CD5E006F793B /* ViewController.m */; };
+		7F490F351C87CD5E006F793B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F490F331C87CD5E006F793B /* Main.storyboard */; };
+		7F490F371C87CD5E006F793B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F490F361C87CD5E006F793B /* Assets.xcassets */; };
+		7F490F3A1C87CD5E006F793B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F490F381C87CD5E006F793B /* LaunchScreen.storyboard */; };
+		7F490F421C87CE43006F793B /* CityData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F490F411C87CE43006F793B /* CityData.plist */; };
+		7F490F461C87D1D1006F793B /* JaredCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F490F451C87D1D1006F793B /* JaredCity.m */; };
+		7F490F491C87D457006F793B /* JaredChooseCityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F490F481C87D457006F793B /* JaredChooseCityController.m */; };
+		7F490F521C87DB1D006F793B /* JaredCityHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F490F511C87DB1D006F793B /* JaredCityHeaderView.m */; };
+		7F490F551C87DB45006F793B /* JaredCityGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F490F541C87DB45006F793B /* JaredCityGroupCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F490F271C87CD5E006F793B /* Jared_SearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jared_SearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F490F2B1C87CD5E006F793B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F490F2D1C87CD5E006F793B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F490F2E1C87CD5E006F793B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F490F301C87CD5E006F793B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F490F311C87CD5E006F793B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F490F341C87CD5E006F793B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F490F361C87CD5E006F793B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F490F391C87CD5E006F793B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F490F3B1C87CD5E006F793B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F490F411C87CE43006F793B /* CityData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityData.plist; sourceTree = "<group>"; };
+		7F490F441C87D1D1006F793B /* JaredCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JaredCity.h; sourceTree = "<group>"; };
+		7F490F451C87D1D1006F793B /* JaredCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JaredCity.m; sourceTree = "<group>"; };
+		7F490F471C87D457006F793B /* JaredChooseCityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JaredChooseCityController.h; sourceTree = "<group>"; };
+		7F490F481C87D457006F793B /* JaredChooseCityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JaredChooseCityController.m; sourceTree = "<group>"; };
+		7F490F4D1C87D60A006F793B /* JaredChooseCityDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JaredChooseCityDelegate.h; sourceTree = "<group>"; };
+		7F490F501C87DB1D006F793B /* JaredCityHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JaredCityHeaderView.h; sourceTree = "<group>"; };
+		7F490F511C87DB1D006F793B /* JaredCityHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JaredCityHeaderView.m; sourceTree = "<group>"; };
+		7F490F531C87DB45006F793B /* JaredCityGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JaredCityGroupCell.h; sourceTree = "<group>"; };
+		7F490F541C87DB45006F793B /* JaredCityGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JaredCityGroupCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F490F241C87CD5E006F793B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F490F1E1C87CD5E006F793B = {
+			isa = PBXGroup;
+			children = (
+				7F490F291C87CD5E006F793B /* Jared_SearchBar */,
+				7F490F281C87CD5E006F793B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F490F281C87CD5E006F793B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F490F271C87CD5E006F793B /* Jared_SearchBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F490F291C87CD5E006F793B /* Jared_SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				7F490F431C87D190006F793B /* JaredChooseCity */,
+				7F490F2D1C87CD5E006F793B /* AppDelegate.h */,
+				7F490F2E1C87CD5E006F793B /* AppDelegate.m */,
+				7F490F301C87CD5E006F793B /* ViewController.h */,
+				7F490F311C87CD5E006F793B /* ViewController.m */,
+				7F490F331C87CD5E006F793B /* Main.storyboard */,
+				7F490F361C87CD5E006F793B /* Assets.xcassets */,
+				7F490F381C87CD5E006F793B /* LaunchScreen.storyboard */,
+				7F490F3B1C87CD5E006F793B /* Info.plist */,
+				7F490F2A1C87CD5E006F793B /* Supporting Files */,
+			);
+			path = Jared_SearchBar;
+			sourceTree = "<group>";
+		};
+		7F490F2A1C87CD5E006F793B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F490F2B1C87CD5E006F793B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F490F431C87D190006F793B /* JaredChooseCity */ = {
+			isa = PBXGroup;
+			children = (
+				7F490F411C87CE43006F793B /* CityData.plist */,
+				7F490F441C87D1D1006F793B /* JaredCity.h */,
+				7F490F451C87D1D1006F793B /* JaredCity.m */,
+				7F490F4D1C87D60A006F793B /* JaredChooseCityDelegate.h */,
+				7F490F471C87D457006F793B /* JaredChooseCityController.h */,
+				7F490F481C87D457006F793B /* JaredChooseCityController.m */,
+				7F490F501C87DB1D006F793B /* JaredCityHeaderView.h */,
+				7F490F511C87DB1D006F793B /* JaredCityHeaderView.m */,
+				7F490F531C87DB45006F793B /* JaredCityGroupCell.h */,
+				7F490F541C87DB45006F793B /* JaredCityGroupCell.m */,
+			);
+			name = JaredChooseCity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F490F261C87CD5E006F793B /* Jared_SearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F490F3E1C87CD5E006F793B /* Build configuration list for PBXNativeTarget "Jared_SearchBar" */;
+			buildPhases = (
+				7F490F231C87CD5E006F793B /* Sources */,
+				7F490F241C87CD5E006F793B /* Frameworks */,
+				7F490F251C87CD5E006F793B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jared_SearchBar;
+			productName = Jared_SearchBar;
+			productReference = 7F490F271C87CD5E006F793B /* Jared_SearchBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F490F1F1C87CD5E006F793B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Jared;
+				TargetAttributes = {
+					7F490F261C87CD5E006F793B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7F490F221C87CD5E006F793B /* Build configuration list for PBXProject "Jared_SearchBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F490F1E1C87CD5E006F793B;
+			productRefGroup = 7F490F281C87CD5E006F793B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F490F261C87CD5E006F793B /* Jared_SearchBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F490F251C87CD5E006F793B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F490F3A1C87CD5E006F793B /* LaunchScreen.storyboard in Resources */,
+				7F490F371C87CD5E006F793B /* Assets.xcassets in Resources */,
+				7F490F351C87CD5E006F793B /* Main.storyboard in Resources */,
+				7F490F421C87CE43006F793B /* CityData.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F490F231C87CD5E006F793B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F490F321C87CD5E006F793B /* ViewController.m in Sources */,
+				7F490F461C87D1D1006F793B /* JaredCity.m in Sources */,
+				7F490F2F1C87CD5E006F793B /* AppDelegate.m in Sources */,
+				7F490F551C87DB45006F793B /* JaredCityGroupCell.m in Sources */,
+				7F490F491C87D457006F793B /* JaredChooseCityController.m in Sources */,
+				7F490F2C1C87CD5E006F793B /* main.m in Sources */,
+				7F490F521C87DB1D006F793B /* JaredCityHeaderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F490F331C87CD5E006F793B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F490F341C87CD5E006F793B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F490F381C87CD5E006F793B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F490F391C87CD5E006F793B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F490F3C1C87CD5E006F793B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F490F3D1C87CD5E006F793B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F490F3F1C87CD5E006F793B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Jared_SearchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jared.com.cn.Jared-SearchBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F490F401C87CD5E006F793B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Jared_SearchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jared.com.cn.Jared-SearchBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F490F221C87CD5E006F793B /* Build configuration list for PBXProject "Jared_SearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F490F3C1C87CD5E006F793B /* Debug */,
+				7F490F3D1C87CD5E006F793B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F490F3E1C87CD5E006F793B /* Build configuration list for PBXNativeTarget "Jared_SearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F490F3F1C87CD5E006F793B /* Debug */,
+				7F490F401C87CD5E006F793B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F490F1F1C87CD5E006F793B /* Project object */;
+}
